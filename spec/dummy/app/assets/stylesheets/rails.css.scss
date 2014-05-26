@@ -1,0 +1,19 @@
+body {
+  font-size: 16px;
+
+  @media (max-width: 480px) {
+    & {
+      font-size: 14px;
+    }
+  }
+}
+
+.footer {
+  line-height: 2em;
+
+  @media (max-width: 480px) {
+    & {
+      display: none;
+    }
+  }
+}
