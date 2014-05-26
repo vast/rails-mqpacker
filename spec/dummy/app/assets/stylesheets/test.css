@@ -1,0 +1,19 @@
+a {
+  color: blue;
+}
+
+@media screen and (max-width: 980px) {
+  a {
+    color: red;
+  }
+}
+
+i {
+  font-size: 1em;
+}
+
+@media screen and (max-width: 980px) {
+  i {
+    font-size: 2em;
+  }
+}
