@@ -42,6 +42,15 @@ Write your CSS (SASS, Stylus, Less) as usually:
 Rails-mqpacker will pack similar media queries:
 
 ```css
+#header {
+  font-size: 2em;
+}
+
+#footer {
+  width: 80%;
+  margin: 0 auto;
+}
+
 @media (max-width: 768px) {
   #header {
     font-size: 1em;
