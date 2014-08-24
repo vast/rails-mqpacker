@@ -12,7 +12,7 @@ describe 'Sprockets integration' do
   subject { assets['test.css'].to_s }
 
   it 'packs similar media queries' do
-    subject.should == <<-END
+    expect(subject).to eq <<-END
 a {
   color: blue;
 }

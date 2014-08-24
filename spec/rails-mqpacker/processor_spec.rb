@@ -20,7 +20,7 @@ describe RailsMqpacker::Processor do
   subject { described_class.process(sample_css) }
 
   it 'packs media queries into one' do
-    subject.should == <<-END
+    expect(subject).to eq <<-END
       #header { font-size: 2em; }
 
       #footer { width: 80%; }
