@@ -10,10 +10,10 @@ describe CssController, type: :controller do
     get :test
   end
 
-  it { should be_success }
+  it { is_expected.to be_success }
 
   it 'packs similar media queries' do
-    subject.body.should == <<-END
+    expect(subject.body).to eq <<-END
 body {
   font-size: 16px; }
 
