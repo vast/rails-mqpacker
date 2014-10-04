@@ -1,6 +1,8 @@
 Rails-mqpacker
 ==============
 
+[![Build Status](https://semaphoreapp.com/api/v1/projects/95930c92-5c15-418d-93d0-42fcf51dc994/230346/badge.png)](https://semaphoreapp.com/vast/rails-mqpacker)
+
 CSS post-processor which packs same media queries into one media query rule.
 
 Usage
